@@ -1,0 +1,6 @@
+# Sources and licenses
+
+- The [official Phaser Vite starter](https://github.com/phaserjs/template-vite/tree/bf90a1f4940d74e0f60f9c585024c744a21f86d4) is MIT. The kit keeps its entry point and game bootstrap structure, uses the prior kit's settings and rules, and replaces the demo scene and assets. The starter's network logging script and extra minifier were omitted. See [the MIT notice](../LICENSE).
+- Phaser is pinned to **4.2.1**, and Vite to **8.3.5**. Phaser's MIT notice ships with the static build in `phaser-license.txt`. The game draws its shapes locally and uses system fonts.
+- The four official [Phaser 4.2.1 skills](https://github.com/phaserjs/phaser/tree/v4.2.1/skills) are copied unchanged from commit `41be1e462bc600064e498cba370bfa8c5c055a22`. Game Setup and Config informed the canvas and scaling. Scenes, Input, and Graphics and Shapes informed the scene lifecycle, keyboard controls, and asset-free visuals. See [the Phaser MIT notice](phaser-skills-license.txt).
+- The [game-jam skill](https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/0449791b1d02411d824b7f183bef7ee152a1f7df/skills/workflows/game-jam) is copied unchanged. Its advice to keep one mechanic, set a feature freeze, and test an extracted build informed the activity plan. See [Apache 2.0](game-jam-skill-license.txt) and [the upstream notice](game-jam-skill-notice.txt).

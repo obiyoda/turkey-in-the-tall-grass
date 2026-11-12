@@ -1,0 +1,24 @@
+:root {
+    font-family: system-ui, sans-serif;
+    color: #edf4fc;
+    background: #0a1120;
+    color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1000px; margin: auto; padding: 22px 20px; }
+header { margin-bottom: 20px; }
+h1 { font-size: clamp(2rem, 6vw, 3.6rem); margin: 4px 0 8px; line-height: 1; }
+p { margin: 0; }
+#team { color: #8ef0c5; font: 600 0.85rem monospace; }
+#goal, .controls { color: #afc5db; }
+section { background: #10192b; border: 1px solid #35435c; border-radius: 12px; overflow: hidden; }
+.toolbar, .buttons { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.toolbar { padding: 10px 14px; justify-content: space-between; }
+button { font: inherit; color: inherit; cursor: pointer; padding: 6px 10px; border: 1px solid #526785; border-radius: 6px; background: #20334a; }
+#start { color: #0a1120; background: #8ef0c5; border-color: #8ef0c5; }
+#hud, #game-status, .controls { font: 0.9rem monospace; }
+#game-status, .controls { padding: 8px 14px; }
+#game-container { width: 100%; aspect-ratio: 960 / 560; outline-offset: -3px; }
+#game-container canvas { display: block; }
+:focus-visible { outline: 2px solid #ffda80; }
